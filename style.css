@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
 /* hero image */
 .bgimage {
     height: 100vh;
@@ -27,6 +34,15 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+
+.nameLogo {
+  font-family: 'Gruppo', cursive;
+  color: #ffffff;
+}
+
+ul li a {
+  font-family: 
+}
 /*hero animation*/
 
 
@@ -41,7 +57,7 @@
   .about-text h3 {
     font-size: 45px;
     font-weight: 700;
-    margin: 0 0 10px;
+    margin: 0 0 0px;
   }
   @media (max-width: 767px) {
     .about-text h3 {
@@ -94,7 +110,7 @@
     right: 11px;
     width: 1px;
     height: 12px;
-    background: #3a3973;
+    background: #ffffff;
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
@@ -110,8 +126,8 @@
   
   .about-img {
     box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
-    padding: 20px;
-    background: black;
+    padding: 10px;
+    background: #000;
 
   
   }
@@ -120,14 +136,22 @@
       margin-top: 30px;
     }
   }
-  
+.dark-color {
+  color: #ffffff;
+}
+.theme-color {
+  color: #ffffff;
+}
+.about-text p {
+  color: #ffffff;
+}
 
   .section {
       padding: 100px 0;
       position: relative;
   }
   .gray-bg {
-      background-color: #3a3973;
+      background-color:#092C54;
   }
   .px-btn.theme {
       background: #00c;
@@ -149,18 +173,24 @@
       border-radius: 5px;
       font-size: 16px;
       font-weight: 500;
+      text-decoration: none;
   }
   
   .px-btn.theme-t {
       background: transparent;
       border: 2px solid #0000cc;
-      color: #0000cc;
+      color: #ffffff;
      
+  }
+  .projectTitle{
+    
+    margin-top: 10%;
   }
 
   /*SKILL*/
 #skills{
-    margin-top: 70px;
+    margin-top: 75px;
+  
 }
 .skill-title {
     display: flex;
@@ -168,31 +198,17 @@
     text-align: center;
     margin-bottom: 4%;
     padding: 2px;
-}
-.col-lg-2 {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    flex-direction: column;
+   
 }
 
-#html{
-    margin-left: 14.5%;
-}
-#css {
-    margin-left: 17%;
+.text-center-title h3{
+  color: #ffff;
 }
 
-#js{
-    margin-left: 7%;
-}
-#rjs{
-    margin-right: 26.5%;
-}
   /* Portfolio */
-#projects {
-    margin-top: 10%;
-}
+
+  
+
   .text-center {
       display: flex;
       justify-content: space-between;
@@ -202,12 +218,14 @@
   
   .text-center .leftLinkButton {
      
-      margin-left: 30%;
+      margin-left: 22%;
+      margin-right: 2%;
   }
   
   .text-center .rightLinkButton {
      
       margin-right: 30%;
+      margin-left: 2%;
   }
   
   .text-center-title {
@@ -216,13 +234,69 @@
       align-items: center;
   }
 
+  .black-bg{
+    background: #000;
+
+  }
+  .card-body {
+    background-color: #092C54;
+    padding: 5px;
+   
+  }
+
+.card-title{
+  color: white;
+}
+
+.card-text{
+  color: white;
+}
+
+
+
  /*Contact*/
-
- #contact{
-   margin-top: 10%;
-   margin-bottom: 10%;
-   align-items:center;
- }
-
-
+#contact{
+  margin-top: 10%;
+  padding: 2%;
+  background-color: #092C54;
+  
+}
  
+.links {
+  margin-top: 10%;
+  justify-content: space-between;
+  
+}
+.black-bg {
+  background-color: #000;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+#contactContent{
+ margin-left: 10%;
+}
+#contact h1{
+  color: #ffffff;
+}
+
+form input {
+  color: lightgreen;
+}
+footer {
+  background-color: #092C54;
+  color: #ffffff;
+  margin-bottom: auto;
+
+}
+
+.socialContainer{
+align-items: center;
+}
