@@ -80,9 +80,9 @@
                     <div class="about-text">
                         <h3 class="dark-color">About Me</h3>
                         <h4 class="theme-color">Front-end Developer</h4>
-                        <p>I design, build and maintain web and mobile applications. I make sure My code is clean and understandable. Having a background in design 
+                        <p>I design, build and maintain web and mobile applications. I make sure My code is clean and coherent. Having a background in design 
                              has allowed me to understand different elements and concepts of design such as color, form, style and much more. I implemment these concepts 
-                             with my problemsolving and technical coding skills.
+                             with my problemsolving and technical coding skills to create user-friendly products.
 
                             
                             
@@ -304,7 +304,7 @@
                     <h1 class="text-center contactMe">Contact Me</h1>
 
                     <!--form-->
-                    <form action="https://formsubmit.co/edikaneakpan1996@gmail.com" method="POST">
+                    <form action="POST" data-netlify="true">
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" name="email" class="form-control mt-3" placeholder="Email Address" required>
                         <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
@@ -313,6 +313,12 @@
                             <textarea class="form-control" name="text" id="comment" cols="30" rows="5"></textarea>
                         </div>
                     </form>
+                    <div class="feild">
+                         <input type="file" name="myfile" id="myfile" placeholder="upload file">
+                    </div>
+                    <div class="feild">
+                        <input data-netlify-repcaptcha="true">
+                    </div>
                     <button type="button" class="btn btn-success mt-3">Send</button>
                 </div>
             </div>
