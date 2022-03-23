@@ -305,3 +305,16 @@ align-items: center;
   align-items: center;
   margin-top: 10%;
 }
+
+.backPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+.backButton{
+  color: black;
+
+}
