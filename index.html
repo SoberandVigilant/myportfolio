@@ -304,10 +304,10 @@
                     <h1 class="text-center contactMe">Contact Me</h1>
 
                     <!--form-->
-                    <form action="POST" data-netlify="true">
+                    <form action="https://formsubmit.co/your@email.com" method="POST">
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" name="email" class="form-control mt-3" placeholder="Email Address" required>
-                        <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
+                        <input type="hidden" name="_next" value="https://eakpanportfolio.netlify.app/thankyou.html">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
                             <textarea class="form-control" name="text" id="comment" cols="30" rows="5"></textarea>
@@ -316,10 +316,9 @@
                     <div class="feild">
                          <input type="file" name="myfile" id="myfile" placeholder="upload file">
                     </div>
-                    <div class="feild">
-                        <input data-netlify-repcaptcha="true">
-                    </div>
+                    <a href="thankyou.html">
                     <button type="button" class="btn btn-success mt-3">Send</button>
+                    </a>
                 </div>
             </div>
         </div>
