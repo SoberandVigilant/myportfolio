@@ -299,6 +299,10 @@ footer {
 align-items: center;
 }
 
+.links{
+  margin-top: 2%;
+}
+
 .thankyou {
   display: flex;
   justify-content: center;
@@ -317,4 +321,9 @@ align-items: center;
 .backButton{
   color: black;
 
+}
+
+#myfile{
+  color: aliceblue;
+  border-radius: 0%;
 }
