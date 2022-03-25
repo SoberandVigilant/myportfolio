@@ -302,25 +302,28 @@
                                 src="images/icons8-instagram-144.png" alt="" width="50px"></a>
                     </div>
                 </div>
-                <div class="col-lg-6 blue-bg">
-                    <h1 class="text-center contactMe">Contact Me</h1>
-
-                    <!--form-->
-                    <form class="contact_form" action="https://formsubmit.co/edikaneakpan1996@gmail.com"  method="POST" >
-                        <input type="text" class="form-control form-control-lg name" placeholder="Name">
-                        <input type="email" name="email" class="form-control mt-3 email" placeholder="Email Address" required>
-            
-                        <input type="text" class="form-control mt-3 msg" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" name="text" id="comment" cols="30" rows="5"></textarea>
-                        </div>
-                    </form>
-                    <div class="feild">
-                         <input type="file" name="myfile" id="myfile" placeholder="upload file">
+                <div class="col-lg-6 blue-bg form">
+                    <div class="form-bottom contact-form">
+                        <form role="form" action="assets/contact.php" method="post">
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-email">Email</label>
+                                <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-subject">Subject</label>
+                                <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-message">Message</label>
+                                <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-antispam">Questions:</label>
+                                <input type="text" name="antispam" placeholder="Your answer..." class="contact-antispam form-control" id="contact-antispam">
+                            </div>
+                            <button type="submit" class="btn">Send message</button>
+                        </form>
                     </div>
-                    <a href="thankyou.html">
-                    <button type="button" class="btn btn-success mt-3">Send</button>
-                    </a>
                 </div>
             </div>
         </div>
@@ -339,12 +342,12 @@
 
 
     <!--Script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-        <script src="https://smtpjs.com/v3/smtp.js">
-        </script>
-    <script src="/script/script.js"></script>
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="script/script.js"></script>
+
 </body>
 
 
