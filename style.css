@@ -317,3 +317,18 @@ align-items: center;
   margin-top: 2%;
 }
 
+#file{
+  color: red;
+
+}
+
+
+.send {
+  margin-left: 27vh;
+ margin-top: 5px;
+}
+
+.myfile{
+  margin-top: 25px;
+ 
+}

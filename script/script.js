@@ -9,4 +9,3 @@ window.onscroll = function () {
         header.classList.remove('navbarDark');
     }
 }
-
