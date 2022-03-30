@@ -44,6 +44,34 @@
   color: #ffffff;
 }
 
+.animation_1 {
+  animation: mymove 5s infinite;
+  animation-timing-function: ease;
+  
+  
+}
+.animation_2 {
+  overflow: hidden;
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 5.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray}
+}
 
 /*hero animation*/
 
@@ -253,6 +281,7 @@
   .card-body {
     background-color: #092C54;
     padding: 5px;
+    border-style:double;
    
   }
 
@@ -262,6 +291,11 @@
 
 .card-text{
   color: white;
+}
+.card-box{
+  border: 100px;
+  border-radius: 50%;
+
 }
 
 
