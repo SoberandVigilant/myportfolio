@@ -300,6 +300,7 @@
 
 
 
+
  /*Contact*/
 #contact{
   margin-top: 10%;
@@ -365,4 +366,19 @@ align-items: center;
 .myfile{
   margin-top: 25px;
  
+}
+
+li  {
+  text-decoration: none;
+  
+
+}
+
+.titles{
+  color: #ffffff;
+ 
+}
+.skillss li {
+  color: #ffffff;
+  text-decoration: none;
 }
