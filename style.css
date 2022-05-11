@@ -297,7 +297,15 @@
   border-radius: 50%;
 
 }
+.specialties ul li{
+  font-size: 35px;
+  list-style: none;
+  color: #ffffff;
+}
 
+.specialties ul{
+  padding: 10px;
+}
 
 
 
