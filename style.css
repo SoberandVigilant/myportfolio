@@ -12,12 +12,12 @@
 /* hero image */
 .bgimage {
     height: 100vh;
-    background: url('images/code_window.jpg');
+    background: url('images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg');
     background-size: cover;
     position: relative;
 }
 
-/* text for hero imag */
+/* text for hero image */
 .hero_title {
     font-size: 4.5rem;
 }
@@ -235,6 +235,11 @@
   color: #ffff;
 }
 
+.profileimg {
+  border: #000;
+  margin: 1;
+  padding: 4;
+}
   /* Portfolio */
 
   .text-skill{
